@@ -1,0 +1,65 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Agent and tool scratch/state
+AGENTS.md
+.agents/
+.codex/
+codex/
+
+# Generated datasets. Commit only when explicitly intended.
+datasets/*
+!datasets/.gitkeep
+
+# Experiment outputs and checkpoints
+runs/
+experiments/runs/
+*.ckpt
+checkpoint*.pt
+*.pth
+
+# Slurm and job logs
+out/
+*.out
+*.err
+slurm-*.out
+
+# PyTorch / NumPy generated artifacts
+*.pt
+*.npy
+*.npz
+
+# Keep source configs, scripts, notes, and the reference PDF trackable.
+!paper/Poly-Attention.pdf
+
+# LaTeX build artifacts under paper/
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.bcf
+paper/**/*.blg
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+paper/**/*.log
+paper/**/*.out
+paper/**/*.run.xml
+paper/**/*.synctex.gz
+paper/**/*.toc

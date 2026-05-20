@@ -1,0 +1,21 @@
+{
+  "experiment_name": "main",
+  "run_id": null,
+  "batch_size": 64,
+  "val_batch_size": 64,
+  "epochs": 20000,
+  "eval_every": 1000,
+  "lr": 0.001,
+  "seed": 0,
+  "device": "cpu",
+  "out_root": "run",
+  "t": 2,
+  "n": 25,
+  "d": 32,
+  "heads": 4,
+  "layers": 1,
+  "d_ff": 128,
+  "dropout": 0.0,
+  "val_seed_offset": 10000,
+  "device_resolved": "cpu"
+}
